@@ -1,0 +1,54 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "gcc-x64",
+            "compilerArgs": [],
+            "compilerPath": "C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcc.exe",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        },
+        {
+            "name": "Win64",
+            "includePath": [
+                "C:\\MinGW\\lib\\gcc\\mingw32\\9.2.0\\include\\c++\\debug",
+                "C:\\MinGW\\lib\\gcc\\mingw32\\3.4.5\\include",
+                "C:\\Users\\The Professor\\Documents\\Github\\vcpkg\\packages\\opengl_x86-windows\\debug\\lib",
+                "C:\\MinGW\\include",
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "gnu++14",
+            "compilerArgs": [
+                "-lfreeglut",
+                "-lglew32",
+                "-lGlU32",
+                "-lOpenGL32"
+            ],
+            "forcedInclude": [
+                "C:\\Users\\SwaggyT\\Documents\\GitHub\\OpenGl\\glew-1.11.0\\include\\GL\\glew.h"
+            ],
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

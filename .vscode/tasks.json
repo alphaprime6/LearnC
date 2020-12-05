@@ -1,0 +1,63 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "clang",
+			"command": "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe",
+			"args": [
+				"-g",
+				"testops.cpp",
+				"-o",
+				"testops.exe", //  "-g", "${file}","-o","${fileDirname}\\${fileBasenameNoExtension}.exe"
+				//"-IC:\\Users\\SwaggyT\\Documents\\GitHub\\OpenGL_Setup_Files\\freeglut\\include",
+                //"-IC:\\Users\\SwaggyT\\Documents\\GitHub\\OpenGL_Setup_Files\\glew-1.11.0\\include",
+               // "-IC:\\MinGW\\include", useful
+                //"-L${workspaceFolder}/**",
+                //"-lfreeglut",
+                //"-lglew32",
+                //"-LC:\\Users\\SwaggyT\\Documents\\GitHub\\OpenGl\\freeglut\\lib",
+                //"-LC:\\Users\\SwaggyT\\Documents\\GitHub\\OpenGL_Setup_Files\\glew-1.11.0\\lib",
+                //"-LC:\\Users\\SwaggyT\\Documents\\GitHub\\vcpkg\\packages\\opengl_x86-windows\\lib",
+                //"-LC:\\Users\\SwaggyT\\Documents\\GitHub\\vcpkg\\packages\\opengl_x86-windows\\debug\\lib",
+                //"-lGlu32",
+                //"-lOpenGL32",
+                //"-LC:\\Users\\SwaggyT\\Documents\\GitHub\\libcs50",
+                //"-I${env:.vcpkg-root}/installed/x86-windows/include",
+				//"-IC:\\Users\\SwaggyT\\Documents\\GitHub\\vcpkg\\installed\\x86-windows\\include", not useful
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": ["$gcc"],
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": true,
+				"clear": false
+			},
+			
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: \"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\""
+		}
+	]
+}
+
+//if i ever need to replace what i placed under my included and linked files by Adeck
+//"problemMatcher":"$gcc",
+//"presentation": {
+//	"echo": true,
+//	"reveal": "always",
+//	"focus": false,
+//	"panel": "shared",
+//	"showReuseMessage": true,
+//	"clear": false
+//},
+//"group": {
+//"kind": "build",
+//"isDefault": true
