@@ -1,15 +1,15 @@
 {
     "workbench.colorCustomizations": {
     
+    
         "activityBar.foreground": "#00ffff23",
         "activityBarBadge.background": "#ffc400",
         "activityBar.activeBorder": "#ff0000",
-        "activityBar.inactiveForeground": "#00ff1567",
-        "activityBar.background": "#35204400",
-        "titleBar.activeBackground": "#382d5f00",
-        "titleBar.activeForeground": "#fbf9fc77"
+        "activityBar.inactiveForeground": "#ff660067",
+        "activityBar.background": "#000000",
+        "titleBar.activeBackground": "#000000",
+        "titleBar.activeForeground": "#fbf9fc47"
     },
-    "workbench.colorTheme": "Pitch Black",
     "workbench.preferredLightColorTheme": "Default Dark+",
     "C_Cpp.errorSquiggles": "Enabled",
     "C_Cpp.intelliSenseEngineFallback": "Enabled"

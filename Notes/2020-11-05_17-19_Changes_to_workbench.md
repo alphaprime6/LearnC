@@ -56,3 +56,37 @@ more elegant code for the loan balance problem:
 
        a major milestone in formating with c and also a major milestone in understanding scanf better.
          printf("%d\t%d\t%d\t%d\n%d\t%d\t%d\t%d\n%d\t%d\t%d\t%d\n%d\t%d\t%d\t%d\n%d\t%d\t%d\t%d\n", dig1, dig2, dig3, dig4,dig5,dig6,dig7,dig8,dig9,dig10,dig11,dig12,dig13,dig14,dig15,dig16);
+
+
+
+
+         //printf("What is the original price of the iphone 12 mini 128GB:");
+    //scanf("$%.2f", &iphone_price128);
+    //printf("What is the original price of the iphone 12 mini 256GB:" );
+    //scanf("$%.2f", &iphone_price256);
+
+    //purchase_posttax128 = iphone_price128 * (1 + state_taxrate / 100) - iphone_tradein;
+   // purchase_posttax256 = iphone_price256 * (1 + state_taxrate / 100) - iphone_tradein;
+
+    //purchase_amount = 0.0f,
+
+      //iphone_price128 = 0.0f,
+        //iphone_price256 = 0.0f,
+
+        //purchase_posttax128 = 0.0f,
+        //purchase_posttax256 = 0.0f,
+
+
+
+
+
+        Needed
+        //interest_rate = 0.0f,
+        //time_period = 0.0f,
+        //total = 0.0f,
+        //total_mil = 0.0f,
+        //card_bill = 0.0f,
+        //card_bill0 = 0.0f,
+         //military_price = 0.0f,
+          //purchase_posttax64mil = 0.0f,
+        //monthly_payment = 0.0f;
