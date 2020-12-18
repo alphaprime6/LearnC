@@ -12,5 +12,8 @@
     },
     "workbench.preferredLightColorTheme": "Default Dark+",
     "C_Cpp.errorSquiggles": "Enabled",
-    "C_Cpp.intelliSenseEngineFallback": "Enabled"
+    "C_Cpp.intelliSenseEngineFallback": "Enabled",
+    "projectManager.git.baseFolders": [
+        "LearnC"
+    ]
 }
